@@ -1,0 +1,63 @@
+:root {
+  --primary-text-color: #434455;
+  --title-text-color: #2e2f42;
+  --accent-color: #4d5ae5;
+  --withe-text: #ffffff;
+}
+
+body {
+  color: var(--primary-text-color);
+  background-color: #ffffff;
+}
+
+.list {
+  list-style: none;
+}
+
+.decoration {
+  text-decoration: none;
+}
+
+.header-logo {
+  color: #2e2f42;
+}
+
+.header-span {
+  color: var(--accent-color);
+}
+
+.header-link {
+    color: var(--title-text-color);
+}
+
+.header-navigation {
+    color: var(--primary-text-color);
+}
+
+/* ---HERO--- */
+
+.hero-title {
+    color: var(--withe-text);.
+}
+
+
+
+
+
+/* --primary-text-color: #434455;
+--title-text-color: #2e2f42;
+--accent-color: #4d5ae5;
+--withe-text: #ffffff; */
+/* Основной цвет текста  --  SLATE  #434455 */
+
+/* Вторичній цвет текста  --  NAVY BLUE  #2E2F42 */
+
+/* акцент background: #4D5AE5  SLATE */
+
+/* белый текст #FFFFFF */
+
+/* белый футер   color: #E7E9FC; */
+
+/* лого  IRIS  #4D5AE5  и  NAVY BLUE  #2E2F42 */
+700 500 400 roboto
+800 raleway
