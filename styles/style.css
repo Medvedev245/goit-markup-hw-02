@@ -20,6 +20,9 @@ body {
 }
 
 /* ---HEADER--- */
+.hrader {
+  background-color: #fff;
+}
 
 .header-logo {
   font-family: "Raleway";
@@ -47,10 +50,15 @@ body {
 
 /* ---HERO  section--- */
 
+.hero {
+  background-color: #2e2f42;
+}
+
 .hero-title {
   color: var(--withe-text);
   font-weight: 700;
   line-height: 1;
+  text-align: center;
 }
 
 .hero-btn {
@@ -67,7 +75,72 @@ body {
 
 /* ---description section--- */
 
-/* --primary-text-color: #434455;
+.description {
+  background-color: #fff;
+}
+
+.decoration-subtitle {
+  color: var(--title-text-color);
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.description-text {
+  color: var(--title-text-color);
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+/* ---/description section--- */
+
+/* ---WORKS section--- */
+
+.work {
+  background-color: #fff;
+}
+
+.work-subtitle {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  text-align: center;
+}
+
+/* ---/WORKS section--- */
+
+/* ---TEAM section--- */
+
+.team {
+  background-color: #f4f4fd;
+}
+
+.team-subtitle {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+}
+
+.team-name {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.team-text {
+  font-weight: 400;
+  line-height: 1.2;
+  text-align: center;
+}
+
+/* ---/TEAM section--- */
+
+/* ---footer section--- */
+
+/* ---/footer section--- */
+
+/* --primary-text-color: #434455;   inherit --
 --title-text-color: #2e2f42;
 --accent-color: #4d5ae5;
 --withe-text: #ffffff; */
