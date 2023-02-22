@@ -73,25 +73,27 @@ body {
 
 /* ---/HERO  section--- */
 
-/* ---description section--- */
+/* ---description section---     ---portfolio section---   */
 
 .description {
   background-color: #fff;
 }
 
-.decoration-subtitle {
+.decoration-subtitle,
+.portfolio-title {
   color: var(--title-text-color);
   font-weight: 500;
   line-height: 1.2;
 }
 
-.description-text {
+.description-text,
+.heroes-list {
   color: var(--title-text-color);
   font-weight: 500;
   line-height: 1.2;
 }
 
-/* ---/description section--- */
+/* ---/description section---   ---portfolio section---   */
 
 /* ---WORKS section--- */
 
@@ -160,6 +162,26 @@ body {
 }
 
 /* ---/footer section--- */
+
+/* Portfolio.html */
+
+/* Button */
+
+.portfolio-btn {
+  color: var(--accent-color);
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+  background-color: #f4f4fd;
+  cursor: pointer;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  background-color: #404bbf;
+  color: var(--withe-text);
+}
+
+/* Button */
 
 /* --primary-text-color: #434455;   inherit --
 --title-text-color: #2e2f42;
