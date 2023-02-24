@@ -38,6 +38,7 @@ body {
   font-size: 18px;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
+  text-transform: uppercase;
 }
 
 .header-span {
@@ -120,9 +121,8 @@ body {
 .description-text,
 .portfolio-title {
   color: var(--title-text-color);
-  font-weight: 500;
   line-height: 1.2;
-  font-size: 16px;
+  font-size: 20px;
   letter-spacing: 0.02em;
 }
 
@@ -156,7 +156,6 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  text-align: center;
   letter-spacing: 0.02em;
 }
 
@@ -164,8 +163,8 @@ body {
 .portfolio-text {
   line-height: 1.2;
   font-size: 16px;
-  text-align: center;
   letter-spacing: 0.02em;
+  color: var(--primary-text-color);
 }
 
 /* ---/TEAM section--- */
@@ -177,11 +176,13 @@ body {
 }
 
 .footer-logo {
-  color: var(--team-bg-color);
-  font-family: "Raleway" sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
+  line-height: 1.3;
   font-size: 18px;
-  line-height: 1.1;
+  letter-spacing: 0.03em;
+  color: var(--team-bg-color);
+  text-transform: uppercase;
 }
 
 .footer-span {
@@ -202,6 +203,13 @@ body {
 
 .portfolio {
   background-color: var(--withe-text);
+}
+
+.portfolio-btn-list {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
 /* Button */
