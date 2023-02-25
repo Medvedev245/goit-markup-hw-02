@@ -122,7 +122,7 @@ body {
 .portfolio-title {
   color: var(--title-text-color);
   line-height: 1.2;
-  font-size: 20px;
+  font-size: 16px;
   letter-spacing: 0.02em;
 }
 
@@ -205,13 +205,6 @@ body {
   background-color: var(--withe-text);
 }
 
-.portfolio-btn-list {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-}
-
 /* Button */
 
 .portfolio-btn {
@@ -220,6 +213,10 @@ body {
   border-radius: 4px;
   background-color: var(--team-bg-color);
   cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
 .portfolio-btn:hover,
